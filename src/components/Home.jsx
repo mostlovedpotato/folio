@@ -2,6 +2,9 @@ import React from 'react'
 
 import HeroImage from '../assets/heroImage.png'
 import {MdOutlineKeyboardArrowRight} from "react-icons/md"
+import {Link} from 'react-scroll'
+
+
 
 const Home = () => {
   return (
@@ -16,9 +19,9 @@ const Home = () => {
             technologies like React,Node,Tailwind,Mongodb. 
           </p>
           <div>
-            <button className='text-sky-800 bg-gradient-to-r from-violet-400 to-violet-300 hover:scale-100 duration-200 hover:text-2xl hover:text-bold w-fit px-6 py-3 my-2 cursor-pointer flex items-center rounded-md '>
+            <Link to='portfolio' smooth duration={500} className='text-sky-800 bg-gradient-to-r from-violet-400 to-violet-300 hover:scale-100 duration-200 hover:text-2xl hover:text-bold w-fit px-6 py-3 my-2 cursor-pointer flex items-center rounded-md '>
               Portfolio <span className='group-hover:rotate-90 duration-300'><MdOutlineKeyboardArrowRight className='ml-1' size={25}/></span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>
