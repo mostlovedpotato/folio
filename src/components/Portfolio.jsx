@@ -1,9 +1,9 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+import pFolio from '../assets/pFolio.png'
 import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
+import EShop from '../assets/img-1.PNG'
+import Site from '../assets/Site.PNG'
+import MpBox from '../assets/Mpbox.png'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
 
@@ -15,29 +15,29 @@ const Portfolio = () => {
     const portfolios = [
         {
             id:1,
-            src:arrayDestruct,
-            link : "https://www.github.com"
+            src:pFolio,
+            link : "https://sprightly-quokka-97e4b4.netlify.app",
+            link2:"https://github.com/mostlovedpotato/folio",
         },
         {
             id:2,
-            src:reactParallax,
+            src:Site,
+            link:"https://mellow-kulfi-018b19.netlify.app",
+            link2:"https://github.com/mostlovedpotato/small_business_templ",
         },
         {
             id:3,
-            src:navbar,
+            src:EShop,
+            link:"None",
+            link2:"https://github.com/autoSaveInstance/server-MERN"
         },
         {
             id:4,
-            src:reactSmooth,
+            src:MpBox,
+            link:"None",
+            link2:"https://github.com/autoSaveInstance/Adventure-Sharing-Application-c52f9ccafd355e64710b1e0e5528554dfdea346c"
         },
-        {
-            id:5,
-            src:installNode,
-        },
-        {
-            id:6,
-            src:reactWeather,
-        },
+     
         
 
     ]
@@ -56,7 +56,7 @@ const Portfolio = () => {
                         <img src={src} alt="Not Found"  className='rounded-md ' />
                         <div className='flex items-center justify-center'>
                             <a href={link} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'  target="_blank" rel='noreferrer'>Demo</a>
-                            <a href={link} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110' target="_blank" rel='noreferrer'>Code</a>
+                            <a href={link2} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110' target="_blank" rel='noreferrer'>Code</a>
 
                         </div>
                     </div>
