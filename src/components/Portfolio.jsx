@@ -1,10 +1,8 @@
 import React from 'react'
 import pFolio from '../assets/pFolio.png'
-import installNode from '../assets/portfolio/installNode.jpg'
 import EShop from '../assets/img-1.PNG'
 import Site from '../assets/Site.PNG'
 import MpBox from '../assets/Mpbox.png'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
 
 
